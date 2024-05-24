@@ -1,0 +1,29 @@
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #7d6ae9;
+  padding: 100px;
+  color: white;
+  font-family: sans-serif;
+  margin: 0px;
+}
+
+.footer-card-1 {
+  width: 30%;
+  margin-right: 40px;
+}
+.card-title {
+  font-size: 20px;
+}
+.card-description {
+  font-size: 16px;
+  text-align: left;
+}
+.icon-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-self: flex-start;
+  margin-top: 60px;
+}
