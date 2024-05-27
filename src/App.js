@@ -1,16 +1,17 @@
 import React from "react";
 import "./App.css";
-import TimeLine from "./components/TimeLine";
-import Footer from "./components/Footer";
-import WorkSection from "./components/WorkSection";
+import { Route, Routes } from "react-router-dom";
+import Register from "./Register";
+import Login from "./Login";
+import Home from "./Home";
 
 function App() {
   return (
-    <>
-      <WorkSection />
-      <TimeLine />
-      <Footer />
-    </>
+    <Routes>
+      <Route path="/" element={<Register />} />
+      <Route path="/login" element={<Login />} />
+      <Route path="/home" element={<Home />} />
+    </Routes>
   );
 }
 
